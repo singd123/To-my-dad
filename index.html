@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+            <link rel="stylesheet" href="https://use.typekit.net/ing7kde.css">
+            <link rel="stylesheet" href="https://use.typekit.net/xhd0kmk.css">
+            <link rel="stylesheet" href="https://use.typekit.net/jfs6aup.css">
+            <link rel="stylesheet" href="https://use.typekit.net/ury3cui.css">
+        <title>To My Bhindi</title>
+    </head> 
+    <body>
+        <div class="mode-switch" id="modeSwitch">
+            Somethings are only for my shrek, <br>  your fiona!
+        </div>
+        <div class="lunar-card" data-phase="New Moon">
+            <h3>Happy Valentine's Day</h3>
+            <p class="info">To my special guy...</p>
+            <br>
+            <div class="details" >
+                <p> <span class="time">here's to us, similing, laughing, shouting, chilling, fighting, crying, <br> all the good and ugly that 
+                    makes you and me "us". </span><br> <br> <br> <br> 
+             I don't know if i say this often but, I have been out there with different poeple, had my fair share of experiences, with you 
+             and wihtout.But I can close my eyes and wihtout a second thought say that there is no one I would rather wait for as long as it 
+             takes or be with, other than YOU! Now, I know i don't make it seem like that always, and every relationship has good days and bad 
+             ones too. Yet, I know you're the first person i want to talk to when i get up and the last when i sleep, mostly ;). Because 
+             for some reason there is just something is my gut which tells me that despite somedays the love between us being more and somedays
+             less, there is nothing that is shaking me away from it.Not the one and half year where we didn't even talk, not the distance, 
+             not the time difference, not what anyone says, nothing will ever make me not love you. Thank you for having my back, baring me and loving me, 
+             hope we continue to do so forever. I love you Meri Bhindi!!!  </p>
+            </div>
+            
+            <br>
+
+        </div>
+
+         <br> 
+         <br>
+         <br>
+         <a id=link href="gallery/index.html">next</a>
+         <br>
+         <br>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    </body>
+    <script>
+$(document).ready(function () {
+    $('.lunar-card').click(function () {
+        $(this).find('.details').slideToggle();
+    });
+
+    $('#modeSwitch').click(function () {
+        $('body').toggleClass('dark-mode');
+        $('#glowText').toggleClass(''); 
+        $('.square').toggleClass('show'); 
+    });
+});
+
+</script>
+</html>
